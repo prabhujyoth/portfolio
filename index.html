@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <title>Prabhu Jyoth | Design Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
+    <script src="https://kit.fontawesome.com/c4074320dd.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <section id="Home">
+        <nav>
+            <div>
+                <h4 class="heading">Prabhu Jyoth</h4>
+            </div>
+            <ul class="nav-links">
+                <li> <a href="#Home">Home</a></li>
+                <li> <a href="#Work1">Work</a></li>
+                <li> <a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <div class="home_center">
+            <img src="Images/user.png" alt="">
+            <h1 class="text-left">Hello!<br> I'm Prabhu Jyoth Antony,<br>A UI/UX Designer based in<br>Bengaluru, India.</h1>
+        </div>
+        <form method="post" action="">
+            <!--<input type="email" placeholder="Enter your email" id="email">-->
+            <button type="submit" id="btn_snd" onclick="Send()">Contact me<i class="fa-solid fa-circle-arrow-right"></i></button>
+        </form>
+    </section>
+    <!--<hr style="width:80%;text-align:center;margin-left: 10%;">-->
+    <section id="Work1">
+        <h1 class="work1_head">Book App Design</h1>
+        <p class="p_work1">Created a minimalistic book app design to deliver<br> a seamless reading experience to passionate<br> mobile readers.</p>
+        <button class="btn_view" onclick="redirect1()">View Project<i class="fa-solid fa-arrow-right"></i></button>
+        
+        <img src="Images/Designs/Homepage.png" alt="" class="img_book1">
+        <img src="Images/Designs/Section.png" alt="" class="img_book2">
+    </section>
+    <section id="Work2">
+        <h1 class="work2_head">Zen Player - Music App Design</h1>
+        <p class="p_work2">A music app design that allows users with easy and efficient<br> navigation of controls over their music. It allows users to access<br> a vast library of songs, albums, and playlists easily.</p>
+        <button class="btn_view2" onclick="redirect2()">View Project<i class="fa-solid fa-arrow-right"></i></button>
+        <img src="Images/Designs/music.png" alt="" class="img_music">
+    </section>
+    <section id="Work3">
+        <h1 class="work1_head">Wifly - Travel Website Design</h1>
+        <p class="p_work1">A simple web design for a travel website that allows users<br> to explore Iceland, book tickets, and grab amazing travel deals<br>and much more.</p>
+        <button class="btn_view3" onclick="redirect3()">View Project<i class="fa-solid fa-arrow-right"></i></button>
+        <img src="Images/Designs/wifly.png" alt="" class="img_wifly">
+    </section>
+    <div>
+        <button onclick="fullproject()" id="view-all-btn">View all projects<i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <hr style="width:80%;text-align:center;margin-left: 10%;">
+    <footer>
+        <h1 class="footer-head">Contact</h1>
+        <ul id="flinks">
+            <li><a href="https://www.linkedin.com/in/prabhu-jyoth-antony-87777a22a"><i class="fa-brands fa-linkedin"></i>  LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/tony.uiux/"><i class="fa-brands fa-instagram"></i>  Instagram</a></li>
+        </ul>
+    </footer>
+    
+</body>
+
+
+</html>
